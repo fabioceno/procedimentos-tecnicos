@@ -1,0 +1,28 @@
+1)	Conectando no Azure.
+
+•	Execute o comando Connect-AzAccount -TenantID Informe o número do TenantId.
+
+2)	Criando recurso Virtual Network – VNET.
+
+•	No Powershell ISE ou VSCODE os códigos abaixo foram inseridos.
+
+virtualNetwork = New-AzVirtualNetwork `
+  -ResourceGroupName "rg-modulo-03" `
+  -Location "northeurope" `
+  -Name "vnet-mod03" `
+  -AddressPrefix 10.3.0.0/16
+
+•	Salve o arquivo com a extensão .PS1.
+•	Código inserido, selecionado em seguida executado.
+
+3)	Criando recurso SubNet.
+
+$subnetConfig = Add-AzVirtualNetworkSubnetConfig `
+  -Name "snet-mod03" `
+  -AddressPrefix 10.3.0.0/24 `
+  -VirtualNetwork $virtualNetwork
+
+4)	Vinculando a Subnet a Vnet que foi criada.
+
+$virtualNetwork | Set-AzVirtualNetwork
+
