@@ -1,0 +1,18 @@
+1)	Conectando com a Subscrição no Azure
+
+•	Execute o comando “Connect-AzAccount -TenantID Informe o número do TenantId”.
+
+•	O navegador será executado e solicitará as credenciais de acesso ao portal Azure.
+
+•	Após as validações, a autenticação será realizada no Powershell.
+
+•	As informações do Tenant serão exibidas no Powershell.
+
+2)	Criando um Resource Group.
+
+•	Execute o comando conforme o exemplo abaixo:
+New-AzResourceGroup -Name "nome_resource_group" -Location "localização_resource_group" -Tag @{Nome_Tag="Valor_tag"}
+
+•	O recurso foi criado com sucesso.
+
+•	No portal, o RG foi criado com sucesso.
