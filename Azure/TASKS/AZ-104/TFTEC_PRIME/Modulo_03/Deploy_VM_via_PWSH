@@ -41,3 +41,6 @@ Add-AzVMNetworkInterface -Id $nic.Id
 
 # Create a virtual machine
 New-AzVM -ResourceGroupName $resourceGroup -Location $location -VM $vmConfig
+
+
+
