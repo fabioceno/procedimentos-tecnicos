@@ -1,0 +1,43 @@
+/****** Criando uma máquina virtual via Powershell ******\
+
+# Connect Azure Account
+Connect-AzAccount
+
+# Variables for common values
+$resourceGroup = "rg-modulo-03"
+$location = "northeurope"
+$vmName = "vm-npcit-ps"
+$vnet = "vnet-mod03"
+$subnet = "snet-mod03"
+
+# Create user object
+$cred = Get-Credential -Message "Enter a username and password for the virtual machine."
+
+# Create a public IP address and specify a DNS name
+$pip = New-AzPublicIpAddress -ResourceGroupName $resourceGroup -Location $location `
+  -Name "vmnpcitps01pip" -AllocationMethod Static
+
+# Create an inbound network security group rule for port 3389
+$nsgRuleRDP = New-AzNetworkSecurityRuleConfig -Name AllowRDP  -Protocol Tcp `
+  -Direction Inbound -Priority 1000 -SourceAddressPrefix * -SourcePortRange * -DestinationAddressPrefix * `
+  -DestinationPortRange 3389 -Access Allow
+
+# Create a network security group
+$nsg = New-AzNetworkSecurityGroup -ResourceGroupName $resourceGroup -Location $location `
+  -Name "vmnpcitps01nsg" -SecurityRules $nsgRuleRDP
+  
+#Get the subnet details for the specified virtual network + subnet combination.
+$azureVnetSubnet = (Get-AzVirtualNetwork -Name $vnet -ResourceGroupName $resourceGroup).Subnets | Where-Object {$_.Name -eq $subnet}  
+
+# Create a virtual network card and associate with public IP address and NSG
+$nic = New-AzNetworkInterface -Name "vmnpcitps01nic" -ResourceGroupName $resourceGroup -Location $location `
+  -SubnetId $azureVnetSubnet.Id -PublicIpAddressId $pip.Id -NetworkSecurityGroupId $nsg.Id
+  
+# Create a virtual machine configuration
+$vmConfig = New-AzVMConfig -VMName $vmName -VMSize Standard_B2S_v2 | `
+Set-AzVMOperatingSystem -Windows -ComputerName $vmName -Credential $cred | `
+Set-AzVMSourceImage -PublisherName MicrosoftWindowsServer -Offer WindowsServer -Skus 2025-Datacenter-azure-edition -Version latest | ` 
+Add-AzVMNetworkInterface -Id $nic.Id
+
+# Create a virtual machine
+New-AzVM -ResourceGroupName $resourceGroup -Location $location -VM $vmConfig
