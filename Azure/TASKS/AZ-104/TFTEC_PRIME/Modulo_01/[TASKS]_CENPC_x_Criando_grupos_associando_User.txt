@@ -1,0 +1,54 @@
+*** Criando grupos de segurança e associando os usuários. ***
+
+1. Criado grupos de segurança no Entra ID.
+
+1) gp_ti_cloud_infra
+2) gp_mkt_cloud_all
+3) gp_ti_cloud_all
+4) gp_cenpc_all
+5) gp_ti_cloud_dev
+
+2. Associado os usuários aos grupos criados.
+
+* gp_cenpc_all
+	> gp_mkt_cloud_all
+	> gp_ti_cloud_all
+
+* gp_ti_cloud_all
+	> gp_ti_cloud_infra
+		>> gp_ti_cloud_infra_hml
+			- Cloud TI Suporte | Junior Uacher
+			- Cloud TI Infra | Fabio Silva
+			- Cloud TI Infra | Asdrubal Junior
+
+		>> gp_ti_cloud_infra_prd
+			- Cloud TI Infra | Asdrubal Junior
+			- Cloud TI Infra | Fabio Silva - Admin
+
+	> gp_ti_cloud_dev
+		>> gp_ti_cloud_dev_hml
+			- Cloud TI Dev | Michael R. Kyle
+			- Cloud TI Dev | Juca Uacher
+
+		>> gp_ti_cloud_dev_prd
+			- Cloud TI Dev | Juca Uacher
+
+* gp_mkt_cloud_all
+		>> gp_mkt_cloud_hml
+			- Cloud MKT | Maria Santos
+
+		>> gp_mkt_cloud_prd
+			- Cloud MKT | Maria Santos
+
+* gp_ti_cloud_infra
+- Cloud TI Suporte | Junior Uacher
+- Cloud TI Infra | Fabio Silva - Admin
+- Cloud TI Infra | Fabio Silva
+- Cloud TI Infra | Asdrubal Junior
+
+* gp_ti_cloud_dev
+- Cloud TI Dev | Michael R. Kyle
+- Cloud TI Dev | Juca Uacher
+
+* gp_mkt_cloud_all
+- Cloud MKT | Maria Santos
