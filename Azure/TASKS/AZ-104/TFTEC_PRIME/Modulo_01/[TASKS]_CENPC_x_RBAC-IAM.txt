@@ -1,0 +1,21 @@
+*** Criando permissões RBAC / IAM para os resources groups. ***
+
+As permissões serão de contributor.
+
+1) rg-ti-cloud-dev-hml
+	- gp_ti_cloud_dev_hml
+
+2) rg-ti-cloud-dev-prd
+	- gp_ti_cloud_dev_prd
+
+3) rg-ti-cloud-infra-hml
+	- gp_ti_cloud_infra_hml
+
+4) rg-ti-cloud-infra-prd
+	- gp_ti_cloud_infra_prd
+
+5) rg-ti-cloud-mkt-hml
+	- gp_mkt_cloud_hml
+
+6) rg-ti-cloud-mkt-prd
+	- gp_mkt_cloud_prd
