@@ -1,0 +1,61 @@
+# Microsoft Entra ID — Company Branding
+
+## 🎨 Criando o Company Branding da empresa
+
+Configuração da identidade visual da organização na experiência de autenticação do **Microsoft Entra ID**.
+
+### 📍 Caminho
+
+`Microsoft Entra ID > Manage > Company Branding`
+
+### 🔐 Default Sign-in Experience
+
+#### Basic
+
+Configurações realizadas:
+
+* **Favicon:** imagem configurada no formato `32 × 32 px`
+* **Background:** imagem configurada no formato `1920 × 1080 px`
+
+#### Layout
+
+* **Template:** `Full-screen background`
+* **Header:** `Show header`
+* **Footer:** `Show footer`
+
+#### Footer
+
+* **Show 'Privacy & Cookies':** `Hidden`
+* **Display text:** `CENPC`
+* **Show 'Terms of Use':** `Hidden`
+
+#### Sign-in form
+
+* **Banner logo:** `Configured`
+* **Square logo (light theme):** `Configured`
+* **Square logo (dark theme):** `Configured`
+* **Username hint text:** `Endereço de e-mail`
+* **Show self-service password reset:** `Shown`
+---
+## 🛠️ Tecnologias e recursos
+
+* Microsoft Azure
+* Microsoft Entra ID
+* Company Branding
+* Identity & Access Management (IAM)
+* Microsoft Entra Authentication
+* Custom Sign-in Experience
+
+## 🎯 Objetivo do laboratório
+
+Personalizar a experiência de autenticação dos usuários da organização utilizando os recursos de **Company Branding** do Microsoft Entra ID, aplicando a identidade visual da empresa à página de login.
+
+## 📚 Conhecimentos praticados
+
+* Navegação e gerenciamento do Microsoft Entra ID
+* Configuração de identidade visual corporativa
+* Personalização da tela de autenticação
+* Configuração de elementos visuais do login
+* Configuração de mensagens e elementos do formulário de autenticação
+* Conceitos de gerenciamento de identidades e autenticação
+
