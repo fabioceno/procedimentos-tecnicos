@@ -1,95 +1,112 @@
-# Controle de Acesso aos Resource Groups
+# Azure RBAC / IAM — Controle de Acesso por Resource Group
 
-Estrutura de permissões baseada em **Microsoft Entra ID** e **Azure RBAC**, utilizando grupos de segurança para controlar o acesso aos Resource Groups.
+## Objetivo
 
-O nível de permissão definido para os grupos abaixo é **Contributor**, permitindo aos usuários gerenciar os recursos existentes dentro dos respectivos Resource Groups, sem conceder permissões para gerenciar acessos e atribuições de funções (RBAC).
+Implementação de **controle de acesso baseado em funções (RBAC)** no Microsoft Azure, utilizando o **IAM (Identity and Access Management)** para definir permissões específicas para grupos de usuários em diferentes **Resource Groups**.
 
-## Estrutura de Acesso
+O objetivo foi aplicar o princípio de **controle de acesso por função**, garantindo que cada equipe tenha as permissões necessárias para administrar seus respectivos recursos, mantendo uma estrutura organizada entre os ambientes de **Homologação (HML)** e **Produção (PRD)**.
 
-| Resource Group          | Grupo de Acesso         | Ambiente                      | Permissão       |
-| ----------------------- | ----------------------- | ----------------------------- | --------------- |
-| `rg-ti-cloud-dev-hml`   | `gp_ti_cloud_dev_hml`   | Desenvolvimento / Homologação | **Contributor** |
-| `rg-ti-cloud-dev-prd`   | `gp_ti_cloud_dev_prd`   | Desenvolvimento / Produção    | **Contributor** |
-| `rg-ti-cloud-infra-hml` | `gp_ti_cloud_infra_hml` | Infraestrutura / Homologação  | **Contributor** |
-| `rg-ti-cloud-infra-prd` | `gp_ti_cloud_infra_prd` | Infraestrutura / Produção     | **Contributor** |
-| `rg-ti-cloud-mkt-hml`   | `gp_mkt_cloud_hml`      | Marketing / Homologação       | **Contributor** |
-| `rg-ti-cloud-mkt-prd`   | `gp_mkt_cloud_prd`      | Marketing / Produção          | **Contributor** |
+### Permissão utilizada
 
-## Detalhamento
+* **Role:** Contributor
+* **Escopo:** Resource Group
+* **Identidade:** Grupos de segurança do Microsoft Entra ID
+* **Gerenciamento:** Azure RBAC / IAM
 
-### 1. Desenvolvimento – Homologação
-
-**Resource Group:** `rg-ti-cloud-dev-hml`
-**Grupo:** `gp_ti_cloud_dev_hml`
-**Função:** `Contributor`
-
-Grupo destinado aos usuários responsáveis pelo gerenciamento dos recursos da área de **Desenvolvimento** no ambiente de **Homologação**.
+A função **Contributor** permite gerenciar os recursos dentro do Resource Group, sem conceder permissões para alterar as atribuições de acesso do próprio ambiente.
 
 ---
 
-### 2. Desenvolvimento – Produção
+## Subscription — CENPC HML
 
-**Resource Group:** `rg-ti-cloud-dev-prd`
-**Grupo:** `gp_ti_cloud_dev_prd`
-**Função:** `Contributor`
+Ambiente destinado a **Homologação**, utilizado para testes, validações e desenvolvimento.
 
-Grupo destinado aos usuários responsáveis pelo gerenciamento dos recursos da área de **Desenvolvimento** no ambiente de **Produção**.
+| Resource Group      | Grupo do Entra ID     | Função      |
+| ------------------- | --------------------- | ----------- |
+| `rg-cloud-ti-dev`   | `gp_ti_cloud_dev_hml` | Contributor |
+| `rg-cloud-ti-infra` | `gp_ti_cloud_infra`   | Contributor |
+| `rg-cloud-mkt`      | `gp_mkt_cloud_hml`    | Contributor |
 
----
+### Estrutura de acesso
 
-### 3. Infraestrutura – Homologação
+**TI — Desenvolvimento**
 
-**Resource Group:** `rg-ti-cloud-infra-hml`
-**Grupo:** `gp_ti_cloud_infra_hml`
-**Função:** `Contributor`
+* Resource Group: `rg-cloud-ti-dev`
+* Grupo: `gp_ti_cloud_dev_hml`
+* Permissão: **Contributor**
 
-Grupo destinado à equipe responsável pelo gerenciamento dos recursos de **Infraestrutura** no ambiente de **Homologação**.
+**TI — Infraestrutura**
 
----
+* Resource Group: `rg-cloud-ti-infra`
+* Grupo: `gp_ti_cloud_infra`
+* Permissão: **Contributor**
 
-### 4. Infraestrutura – Produção
+**Marketing**
 
-**Resource Group:** `rg-ti-cloud-infra-prd`
-**Grupo:** `gp_ti_cloud_infra_prd`
-**Função:** `Contributor`
-
-Grupo destinado à equipe responsável pelo gerenciamento dos recursos de **Infraestrutura** no ambiente de **Produção**.
-
----
-
-### 5. Marketing – Homologação
-
-**Resource Group:** `rg-ti-cloud-mkt-hml`
-**Grupo:** `gp_mkt_cloud_hml`
-**Função:** `Contributor`
-
-Grupo destinado aos usuários responsáveis pelo gerenciamento dos recursos utilizados pela área de **Marketing** no ambiente de **Homologação**.
+* Resource Group: `rg-cloud-mkt`
+* Grupo: `gp_mkt_cloud_hml`
+* Permissão: **Contributor**
 
 ---
 
-### 6. Marketing – Produção
+## Subscription — CENPC PRD
 
-**Resource Group:** `rg-ti-cloud-mkt-prd`
-**Grupo:** `gp_mkt_cloud_prd`
-**Função:** `Contributor`
+Ambiente destinado à **Produção**, contendo os recursos utilizados pelos serviços em operação.
 
-Grupo destinado aos usuários responsáveis pelo gerenciamento dos recursos utilizados pela área de **Marketing** no ambiente de **Produção**.
+| Resource Group      | Grupo do Entra ID       | Função      |
+| ------------------- | ----------------------- | ----------- |
+| `rg-cloud-ti-dev`   | `gp_ti_cloud_dev_prd`   | Contributor |
+| `rg-cloud-ti-infra` | `gp_ti_cloud_infra_prd` | Contributor |
+| `rg-cloud-mkt`      | `gp_mkt_cloud_prd`      | Contributor |
 
-## Modelo de Governança
+### Estrutura de acesso
 
-A estrutura segue uma abordagem de **Role-Based Access Control (RBAC)**, utilizando grupos do Microsoft Entra ID para facilitar a administração das permissões.
+**TI — Desenvolvimento**
 
-**Usuário → Grupo Entra ID → Resource Group → Azure RBAC → Contributor**
+* Resource Group: `rg-cloud-ti-dev`
+* Grupo: `gp_ti_cloud_dev_prd`
+* Permissão: **Contributor**
 
-Essa abordagem permite:
+**TI — Infraestrutura**
 
-* Centralizar o gerenciamento de acessos;
-* Evitar atribuições individuais sempre que possível;
-* Separar os acessos por área e ambiente;
-* Facilitar auditorias e revisões de permissões;
-* Simplificar a entrada e saída de usuários das equipes;
-* Aplicar o princípio de segregação de ambientes;
-* Manter maior organização e governança dos recursos Azure.
+* Resource Group: `rg-cloud-ti-infra`
+* Grupo: `gp_ti_cloud_infra_prd`
+* Permissão: **Contributor**
 
-> **Observação:** A função **Contributor** permite criar, alterar e excluir recursos dentro do escopo atribuído, mas não permite gerenciar atribuições de acesso no Azure RBAC.
+**Marketing**
 
+* Resource Group: `rg-cloud-mkt`
+* Grupo: `gp_mkt_cloud_prd`
+* Permissão: **Contributor**
+
+---
+
+## Modelo de organização
+
+A estrutura foi criada separando os acessos por:
+
+**Subscription → Resource Group → Grupo do Entra ID → Role RBAC**
+
+Essa abordagem facilita a administração das permissões e permite manter uma separação clara entre os ambientes de **Homologação** e **Produção**.
+
+### Benefícios da implementação
+
+* 🔐 Controle de acesso baseado em funções (RBAC)
+* 👥 Gerenciamento de permissões por grupos
+* 🏢 Separação entre ambientes HML e PRD
+* 📦 Permissões aplicadas diretamente no escopo dos Resource Groups
+* 📋 Maior organização e facilidade de auditoria
+* 🔄 Facilidade para inclusão ou remoção de usuários através dos grupos
+* 🛡️ Aplicação do princípio de menor privilégio dentro do escopo definido
+
+## Tecnologias e conceitos
+
+* Microsoft Azure
+* Microsoft Entra ID
+* Azure RBAC
+* IAM (Identity and Access Management)
+* Resource Groups
+* Role-Based Access Control
+* Access Management
+* Controle de acesso por grupos
+* Gestão de ambientes HML e PRD
