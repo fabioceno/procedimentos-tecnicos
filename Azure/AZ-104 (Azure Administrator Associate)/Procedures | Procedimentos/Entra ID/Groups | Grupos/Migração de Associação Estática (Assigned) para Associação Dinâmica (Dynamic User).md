@@ -31,20 +31,34 @@ Para otimizar e corrigir falhas no momento de incluir usuários no grupo, foi so
   
 * Após selecionar o grupo "gp_ti_cloud_dev_hml" > Properties.
   
-* Alterado o tipo de associação de Estática (Assigned) para Dinâmica (Dynamic User), onde foi disponibilizado o link "Dynamic user members
- - Add dynamic query".
+* Alterado o tipo de associação de Estática (Assigned) para Dinâmica (Dynamic User), onde foi disponibilizado o link "Dynamic user members > Add dynamic query".
 
   <img src="./img/02.gp_ti_cloud_dev_hml.png" width="700">
 
 ***
 ### 6. Definição da Regra Dinâmica.
 
-* Clicando no link "Add dynamic query" foi criada regra - 
+* Clicando no link "Add dynamic query" foi criada regra -- (user.department -eq "TI | Development"). 
 
 ### 7. Validação.
+
+* A regra criada foi validada utilizando a opção "Validate Rules", onde é mostrado os usuários que farão parte do grupo.
+
+  <img src="./img/03.gp_ti_cloud_dev_hml.png" width="700">
+
+***
 ### 8. Impactos e Considerações.
-### 9. Evidências.
-### 10. Resultado.
+
+Os próximos usuários que forem criados para equipe de TI Development serão adicionados no grupo automaticamente.
+
+***
+### 9. Resultado.
+
+* Os usuários da equipe de Ti Development são adicionados ou removidos automaticamente após as alterações.
+
+   <img src="./img/04.gp_ti_cloud_dev_hml.png" width="700">
+
+***
 ### 11. Atualização do Procedimento.
 
 * 15 de setembro 2026
