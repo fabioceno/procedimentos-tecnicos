@@ -100,5 +100,13 @@
     <p align="center">
     <img src="./img/gp_mkt_cloud_hml-02.png" width="700">
     </p>
-  
-* 
+
+## 2. Encerramento
+
+* Status: ☐ Em análise ☐ Em implementação ☐ Aguardando validação ☑ Concluído
+
+* Analista responsável: Fabio Silva Cloud Engineer / Azure Administrator
+
+* Data de implementação: 14/09/2026
+
+/****
