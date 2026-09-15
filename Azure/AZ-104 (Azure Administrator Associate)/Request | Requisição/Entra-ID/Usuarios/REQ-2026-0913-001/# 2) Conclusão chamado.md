@@ -65,42 +65,30 @@
 
   * Mariana Oliveira Santos
 
-    <p align="center">
     <img src="./img/mariana.santos.png" width="700">
-    </p>
     
   * Rafael Almeida Costa
   
-    <p align="center">
     <img src="./img/rafael.costa.png" width="700">
-    </p>
-   
+  
   * Juliana Ferreira Lima
   
-    <p align="center">
     <img src="./img/juliana.lima.png" width="700">
-    </p>
-   
+    
   * Lucas Henrique Martins
     
-    <p align="center">
-    <img src="./img/lucas.martins.png" width="700">
-    </p>
-   
+     <img src="./img/lucas.martins.png" width="700">
+    
 * Evidência 02: Inclusão dos usuários no grupo da equipe de Marketing.
 
   Query
   
-    <p align="center">
     <img src="./img/gp_mkt_cloud_hml-01.png" width="700">
-    </p>
-   
+    
   Validação:
   
-    <p align="center">
     <img src="./img/gp_mkt_cloud_hml-02.png" width="700">
-    </p>
-
+    
 ## 2. Encerramento
 
 * Status: ☐ Em análise ☐ Em implementação ☐ Aguardando validação ☑ Concluído
