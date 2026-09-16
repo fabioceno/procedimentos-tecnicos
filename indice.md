@@ -1,11 +1,12 @@
-# procedimentos-tecnicos
+### Procedimentos Tecnicos de TI
+
 Procedimentos técnicos em arquivos PDF
 
-Repositório com procedimentos técnicos ilustrados (com imagens) em formato PDF. Ideal para profissionais de suporte, infraestrutura e TI em geral.
+***
+Repositório com procedimentos técnicos ilustrados (com imagens) tambem em formato PDF. Ideal para profissionais de suporte, infraestrutura e TI em geral.
 
-## 📚 Conteúdo
+## 📚 Conteúdos
 
-| Setor/Assunto ------------------|
 |---------------------------------|
 | Azure --------------------------|           
 | iVentoy ------------------------|
@@ -16,6 +17,7 @@ Repositório com procedimentos técnicos ilustrados (com imagens) em formato PDF
 | Windows Server -----------------|
 | Windows Powershell -------------|
 | Windows Prompt de Comando ------|
+|---------------------------------|
 
 > 🔄 Este repositório será atualizado frequentemente com novos procedimentos.
 
