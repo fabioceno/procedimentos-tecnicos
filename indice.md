@@ -7,21 +7,21 @@ Repositório com procedimentos técnicos ilustrados (com imagens) tambem em form
 
 ## 📚 Conteúdos
 
-|---------------------------------|
-| Azure --------------------------|           
-| iVentoy ------------------------|
-| Ventoy -------------------------|
-| Windows em Geral ---------------|
-| Windows Active Directoy --------|
-| Windows GPO --------------------|
-| Windows Server -----------------|
-| Windows Powershell -------------|
-| Windows Prompt de Comando ------|
-|---------------------------------|
+<p>|---------------------------------|</p>
+<p>| Azure --------------------------|</p>         
+<p>| iVentoy ------------------------|</p>
+<p>| Ventoy -------------------------|</p>
+<p>| Windows em Geral ---------------|</p>
+<p>| Windows Active Directoy --------|</p>
+<p>| Windows GPO --------------------|</p>
+<p>| Windows Server -----------------|</p>
+<p>| Windows Powershell -------------|</p>
+<p>| Windows Prompt de Comando ------|</p>
+<p>|---------------------------------|</p>
 
-> 🔄 Este repositório será atualizado frequentemente com novos procedimentos.
+🔄 Este repositório será atualizado frequentemente com novos procedimentos.
 
-## ✍️ Autor
+### ✍️ Autor
 
 Fábio Silva  
 [LinkedIn](https://br.linkedin.com/in/fabio-nepomuceno) • [GitHub](https://github.com/fabioceno)
