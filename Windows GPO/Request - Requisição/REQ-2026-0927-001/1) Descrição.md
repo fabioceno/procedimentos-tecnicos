@@ -1,14 +1,14 @@
 # [SOLICITAÇÃO] Mensagem de Boas-vindas no Logon do Windows
 
-Número do chamado: REQ-2026-0927-001
-Categoria: Infraestrutura / Active Directory
-Subcategoria: Group Policy (GPO)
-Classificação: Administração de GPO / Política de Logon
-Prioridade: Média
-Solicitante: RH
-Tipo: Solicitação de Serviço / Configuração
-Equipe responsável: Infrastructure
-Status: Em análise
+* Número do chamado: REQ-2026-0927-001
+* Categoria: Infraestrutura / Active Directory
+* Subcategoria: Group Policy (GPO)
+* Classificação: Administração de GPO / Política de Logon
+* Prioridade: Média
+* Solicitante: RH
+* Tipo: Solicitação de Serviço / Configuração
+* Equipe responsável: Infrastructure
+* Status: Em análise
 
 ## 1. Solicitação
 
