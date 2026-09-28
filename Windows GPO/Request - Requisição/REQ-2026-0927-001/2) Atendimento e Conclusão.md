@@ -16,36 +16,35 @@
 
     <img src="./img/01-autenticacao.png" width="700">
 
-
 ## 📝 Descrição do atendimento.
 
 1) Executada a ferramenta server "Group policy Management" no server manager.
 
 2) Em group policy Object foi criada a politica *GPO - Msg no Logon Windows*.
 
-    <img src="./img/02-Gpo-msg.png" width="700">
+    <img src="./img/02-gpo-msg.png" width="700">
 
 3) Editando a GPO que foi criada.
 
     * Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options > *Interactive logon - Message tex for users attempting to lon on*.
 
-        <img src="./img/03-Gpo.png" width="700">
+        <img src="./img/03-gpo.png" width="700">
 
     * Diretiva habilitada e mensagem incluida.
 
-        <img src="./img/04-Gpo.png" width="700">
+        <img src="./img/04-gpo.png" width="700">
 
     * Computer Configuration > Policies > Windows Settings > Security Settings > Local Policies > Security Options > *Interactive logon - Message title for users attempting to lon on*.
 
-        <img src="./img/05-Gpo.png" width="700">
+        <img src="./img/05-gpo.png" width="700">
 
     * Diretiva habilitada e mensagem incluida.
 
-        <img src="./img/06-Gpo.png" width="700">
+        <img src="./img/06-gpo.png" width="700">
 
 4) GPO foi incluida na raiz do dominio.
 
-    <img src="./img/07-Gpo.png" width="700">
+    <img src="./img/07-gpo.png" width="700">
 
 
 5) No computador cliente foi executado o comando abaixo.
