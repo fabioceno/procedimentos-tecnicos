@@ -16,7 +16,6 @@
 
     <img src="./img/01-autenticacao.png" width="700">
 
-
 ## 📝 Descrição do atendimento.
 
 1) Executada a ferramenta server "Group policy Management" no server manager.
