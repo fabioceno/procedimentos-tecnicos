@@ -1,6 +1,6 @@
-### Procedimentos Tecnicos de TI
+# Procedimentos Tecnicos de TI
 
-Procedimentos técnicos em arquivos PDF
+Procedimentos técnicos também em arquivos PDF.
 
 ***
 Repositório com procedimentos técnicos ilustrados (com imagens) tambem em formato PDF. Ideal para profissionais de suporte, infraestrutura e TI em geral.
@@ -25,7 +25,7 @@ Repositório com procedimentos técnicos ilustrados (com imagens) tambem em form
 
 🔄 Este repositório será atualizado frequentemente com novos procedimentos.
 
-### ✍️ Autor
+# ✍️ Autor
 
 Fábio Silva  
 [LinkedIn](https://br.linkedin.com/in/fabio-nepomuceno) • [GitHub](https://github.com/fabioceno)
