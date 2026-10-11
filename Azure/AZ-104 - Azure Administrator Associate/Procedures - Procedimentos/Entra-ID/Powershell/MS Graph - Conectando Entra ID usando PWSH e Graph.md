@@ -24,18 +24,22 @@
 * **Caso precise execute os comandos para carregar apenas os modulos separadamente.**
 
     * **Autenticação:**
+
         ```powershell
         Import-Module Microsoft.Graph.Authentication -Verbose
         ```
     * **Users:**
+
         ```powershell
         Install-Module Microsoft.Graph.Users -Scope CurrentUser -verbose
         ```
     * **Update do modulo:**
+
         ```powershell
         Update-Module Microsoft.Graph -Force -verbose
         ```
     * **Reiniciando Powershell:**
+
         ```powershell
         Start-Process powershell
         ```
@@ -45,7 +49,8 @@
 
 4) Reinicie o Powershell executando o comando abaixo:
 
-    **Reiniciando Powershell:**
+    * **Reiniciando Powershell:**
+
         ```powershell
         Start-Process powershell
         ```
@@ -77,10 +82,14 @@
 
     * Verifique o que foi impresso.
 
+
     <img src="./img/img-graph06.png" width="700">
 
+
+
     * Execute o comando: 
-    
+
+
     ```powershell
         Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned ``
     ```
@@ -89,38 +98,50 @@
 
     <img src="./img/img-graph07.png" width="700">    
 
+
     * Execute o comando de autenticação novamente:
 
     ```powershell
     connect-MGGraph -TenantID "00000000-x000-408b-bxx0x-4x0000xx0007" -Scopes "User.ReadWrite.All","Group.ReadWrite.All","RoleManagement.Read.all","Directory.Read.all"
     ```
+
 6) Informe as credenciais de acesso no Entra ID.
 
     <img src="./img/img-graph08.png" width="700">
 
+
     * Caso queira que o dispositivo seja cadastrado, clique em SIM.
+
 
     <img src="./img/img-graph09.png" width="700">
 
 7) Em seguida, a autenticação foi realizada com sucesso.
 
+
     <img src="./img/img-graph10.png" width="700">
 
+
 8) Após a autenticação, como teste, execute o comando para verificar as contas cadastradas no Tenant.
+
 
     ```powershell
     Select-Object DisplayName,UserPrincipalName,JobTitle,Department
     ```
+
     <img src="./img/img-graph11.png" width="700">
 
+
 9) Para encerrar a sessão, execute o comando:
+
 
     ```powershell
     Disconnect-MgGraph
     ```
+
     <img src="./img/img-graph12.png" width="700">
 
 
-* Analista responsável: Fabio Silva
+
+* *Analista responsável*: **Fabio Silva**
 
 #
