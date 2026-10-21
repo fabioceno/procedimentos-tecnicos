@@ -87,13 +87,16 @@
 │   │   ├── 📁 RBAC-IAM
 │   │   │   ├── 📁 REQ-2026-0911-001
 │   │   │   │   └── 📄 Solicitação de acessos.md
-│   │   │   └── 📁 REQ-2026-0922-001
-│   │   │       └── 📄 Controle de Acesso por Resource Group.md
+│   │   │   ├── 📁 REQ-2026-0922-001
+│   │   │   │   └── 📄 Controle de Acesso por Resource Group.md
+│   │   │   ├── 📁 REQ-2026-0922-001
+│   │   │       └── 📄 Solicitação - Criar Resource Group Subscription.md
+│   │   │
 │   │   ├── 📁 Resource-Groups
 │   │   │   └── 📄 REQ.md
 │   │   ├── 📁 Storage
-│   │   │   └── 📄 REQ.md
-│   │   └── 📁 Subscription
+│   │   │     └── 📄 REQ.md
+│   │   ├── 📁 Subscription
 │   │       └── 📄 REQ.md
 │   │
 │   └── 📁 Entra-ID
@@ -116,7 +119,7 @@
 │           ├── 📁 REQ-2026-1003-001
 │           │   └── 📄 Cadastrados novos colaboradores.md
 │           └── 📁 REQ-2026-1019-001
-│               └── 📄 Solicitação de envio de Invites para Users Externos.md
+│               └── 📄 Solicitação - Bloqueio - Envio - Invites -Users - EXT.md
 │
 ├── 📁 Task - Tarefa
 │   ├── 📁 Azure

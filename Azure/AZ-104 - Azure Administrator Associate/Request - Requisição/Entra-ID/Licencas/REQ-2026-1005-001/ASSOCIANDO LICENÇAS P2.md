@@ -5,8 +5,13 @@
 * Prioridade: Média
 * Solicitante: TI
 * Equipe responsável: Suporte Técnico
-* Status: ☑ Em análise | ☐ Em implementação | ☐ Aguardando validação | ☐ Concluído.
-
+* Status: 
+    ```
+    ☑ Em análise
+    ☐ Em implementação
+    ☐ Aguardando validação
+    ☐ Concluído.
+    ```
 # 1. 📌 Descrição.
 
 * Solicito a atribuição de licenças Microsoft Entra ID Premium P2 aos usuários que possuam nível hierárquico Gerente ou Senior, conforme os respectivos atributos cadastrados no Microsoft Entra ID.
@@ -75,11 +80,7 @@ Após a identificação, realizar a associação da licença Microsoft Entra ID 
     Start-Process powershell
 
 # Comando para conectar no Entra ID.
-<<<<<<< HEAD
     connect-MGGraph -TenantID "00000000-x000-408b-bxx0x-4x0000xx0007" -Scopes "User.ReadWrite.All","Group.ReadWrite.All","RoleManagement.Read.all","Directory.Read.all"
-=======
-    connect-MGGraph -TenantID "700000006-dXXX-4X0b-bxxx-4x0000xx0000" -Scopes "User.ReadWrite.All","Group.ReadWrite.All","RoleManagement.Read.all","Directory.Read.all"
->>>>>>> 45b1e9bff550aa99ad7c5b55f2849e20d6e14215
 
 # Comando para consultar os usuários cadastrados no Tenant.
     get-mgUser
@@ -91,10 +92,10 @@ Após a identificação, realizar a associação da licença Microsoft Entra ID 
     
     $usuarios | Select-Object DisplayName,UserPrincipalName,JobTitle,Department
 
-# Consultando o grupo que foi criado.    
+# Consultando a variavel o que foi armazenado.    
     $usuarios | Format-Table DisplayName,UserPrincipalName,JobTitle,Department
 
-# Capturando ID do grupo colocando na variavel.
+# Guardando o "ID do grupo" colocando na variavel.
     $grupo.Id
 
 # Adicionando os usuários no grupo que foi criado.
@@ -165,18 +166,19 @@ Foi necessário atualizar o modulo do MS Graph usando o comando *Update-Module M
     * O grupo solicitado foi criado.
     * As licenças *Entra ID P2* foram atribuidas aos usuários com sucesso. 
 
-**Solicitação atendida e validada com sucesso.
+**Solicitação atendida e validada com sucesso**.
 
 * **Próxima ação:**
 
     * Nenhuma ação pendente.
 
-
-
-
-
-* Status: ☐ Em análise | ☐ Em implementação | ☐ Aguardando validação | ☑ Concluído
-
+* Status: 
+    ```
+    ☐ Em análise
+    ☐ Em implementação
+    ☐ Aguardando validação
+    ☑ Concluído
+    ```
 * Analista responsável: Fabio Silva
 
 #
