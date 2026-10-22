@@ -1,7 +1,7 @@
 
 # 🎫 CHAMADO DE ACESSO — LIBERAÇÃO NO RESOURCE GROUP HML
 
-* Número do chamado: INC-2026-0929-002
+* Número do chamado: REQ-2026-1022-001
 * Categoria: RBAC | RESOURCE GROUP | Permissões
 * Prioridade: Média
 * Solicitante: Development | Juca Uacher
