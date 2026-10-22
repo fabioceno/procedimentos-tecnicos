@@ -1,4 +1,4 @@
-# CHAMADO DE ACESSO — Bloqueio para envio de convites para usuários externos
+# 🎫 CHAMADO DE ACESSO — Bloqueio para envio de convites para usuários externos
 
 * Número do chamado: REQ-2026-1019-001
 * Categoria: Solicitação | Bloqueio | Invites
