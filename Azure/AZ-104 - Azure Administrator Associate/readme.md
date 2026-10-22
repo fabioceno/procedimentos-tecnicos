@@ -34,8 +34,8 @@
 │       ├── 📁 Identidade e Acessos
 │       │   ├── 📁 CHG-2026-0923-001
 │       │   │   └── 📄 Criando o Company Branding da empresa.md
-│       │   └── 📁 CHG
-│       │       └── 📄 CHG.md
+│       │   └── 📁 CHG-2026-1022-001
+│       │       └── 📄 Company Branding - Configurando ID visual CENPC.md
 │       ├── 📁 Licenças
 │       │   └── 📁 CHG
 │       │       └── 📄 CHG.md
@@ -95,7 +95,9 @@
 │   │   │   ├── 📁 REQ-2026-0922-001
 │   │   │   │   └── 📄 Controle de Acesso por Resource Group.md
 │   │   │   ├── 📁 REQ-2026-0922-001
-│   │   │       └── 📄 Solicitação - Criar Resource Group Subscription.md
+│   │   │   │   └── 📄 Solicitação - Criar Resource Group Subscription.md
+│   │   │   ├── 📁 REQ-2026-1022-001
+│   │   │       └── 📄 Solicitação - Acessos no Resource Group.md
 │   │   │
 │   │   ├── 📁 Resource-Groups
 │   │   │   └── 📄 REQ.md
