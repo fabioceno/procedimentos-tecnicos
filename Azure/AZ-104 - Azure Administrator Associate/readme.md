@@ -118,7 +118,7 @@
 │           │   └── 📄 CRIAÇÃO DE CONTAS DE USUÁRIOS.md
 │           ├── 📁 REQ-2026-1003-001
 │           │   └── 📄 Cadastrados novos colaboradores.md
-│           └── 📁 REQ-2026-1019-001
+│           ├── 📁 REQ-2026-1019-001
 │               └── 📄 Solicitação - Bloqueio - Envio - Invites -Users - EXT.md
 │
 ├── 📁 Task - Tarefa

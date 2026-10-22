@@ -80,8 +80,7 @@ Após a identificação, realizar a associação da licença Microsoft Entra ID 
     Start-Process powershell
 
 # Comando para conectar no Entra ID.
-    connect-MGGraph -TenantID "00000000-x000-408b-bxx0x-4x0000xx0007" -Scopes "User.ReadWrite.All","Group.ReadWrite.All","RoleManagement.Read.all","Directory.Read.all"
-
+    connect-MGGraph -TenantID "7XXXXXX-XXXX-XXXX-XXXX-XXXXXXX7" -Scopes "User.ReadWrite.All","Group.ReadWrite.All","RoleManagement.ReadWrite.Directory","Directory.ReadWrite.All"
 # Comando para consultar os usuários cadastrados no Tenant.
     get-mgUser
 

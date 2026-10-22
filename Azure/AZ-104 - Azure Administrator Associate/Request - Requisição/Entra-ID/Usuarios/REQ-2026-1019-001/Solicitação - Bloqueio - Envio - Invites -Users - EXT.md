@@ -69,7 +69,7 @@
 
 * **Conectando no Entra ID usando o Powershell usando o Microsoft Graph para realizar consultas, exportar usuários e incluir no grupo que foi criado**.
 
-```
+    ```
     Caso seja a primeira vez, se faz necessário instalar o modulo "Microsoft Graph PowerShell" e atualizar a versão do "Microsoft Graph".
 
     # Instalando o modulo "Microsoft Graph PowerShell" no Powershell Pc local.
@@ -84,12 +84,12 @@
         
         Import-Module Microsoft.Graph.Authentication -Verbose
 
-```
-   * Usando o Powershell 7.4.5 foi realizado o acesso ao Entra ID.
+    ```
+    * Usando o Powershell 7.4.5 foi realizado o acesso ao Entra ID.
 
-   * Reiniciando o serviço do Powershell.
+    * Reiniciando o serviço do Powershell.
 
-   * Executado o comando para exibir a tela de autenticação do Tenant no Entra ID.
+    * Executado o comando para exibir a tela de autenticação do Tenant no Entra ID.
         
         <img src="./img/08.png" width="700">
 
@@ -97,14 +97,14 @@
 
         <img src="./img/08-1.png" width="700">
 
-   * Autenticação realizada.
+    * Autenticação realizada.
 
         <img src="./img/09.png" width="700">
 
-   * Criando uma consulta para capturar usuários com JobTitle = Senior ou Gerente e colocando na variavel $usuarios.
+    * Criando uma consulta para capturar usuários com "JobTitle = Senior ou Gerente" e colocando na variavel "$usuarios".
 
         <img src="./img/10.png" width="700">
-    
+
     * Consultando os usuários que foram inseridos na variavel.
 
         <img src="./img/11.png" width="700">
