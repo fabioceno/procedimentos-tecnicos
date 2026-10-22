@@ -55,11 +55,16 @@
 │
 ├── 📁 Incident - Incidente
 │   ├── 📁 Azure
-│   │   └── 📄 INC.md
+│   │   ├── 📁 INC-2026-1021-001
+│   │       └── 📄 Erro ao criar um virtual Machine.md
+│   │
 │   └── 📁 Entra-ID
 │       └── 📄 INC.md
 │
 ├── 📁 Procedures - Procedimentos
+│   ├── 📁 Azure
+│   │   └── 📄 Azure (Resource Providers) - Habilitando Recursos.pdf
+│   │
 │   ├── 📁 Contas Trial
 │   │   └── 📄 Falha - Criação da conta.pdf
 │   └── 📁 Entra-ID
@@ -134,5 +139,7 @@
 │       └── 📄 Ticket.md
 │
 └── 📁 Troubleshooting
-    └── 📄 Entra-ID - Bulk User:"O envio da operação em massa falhou".md
+    ├── 📄 Entra-ID - Bulk User:"O envio da operação em massa falhou".md
+    ├──
+
 ```
