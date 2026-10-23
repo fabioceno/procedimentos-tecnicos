@@ -63,7 +63,7 @@
 │
 ├── 📁 Procedures - Procedimentos
 │   ├── 📁 Azure
-│   │   └── 📄 Azure (Resource Providers) - Habilitando Recursos.pdf
+│   │   └── 📄 Resource Providers - Habilitando Recursos.pdf
 │   │
 │   ├── 📁 Contas Trial
 │   │   └── 📄 Falha - Criação da conta.pdf
@@ -102,14 +102,16 @@
 │   │   ├── 📁 Resource-Groups
 │   │   │   └── 📄 REQ.md
 │   │   ├── 📁 Storage
-│   │   │     └── 📄 REQ.md
+│   │   │   └── 📄 REQ.md
 │   │   ├── 📁 Subscription
 │   │       └── 📄 REQ.md
 │   │
 │   └── 📁 Entra-ID
 │       ├── 📁 Administrative Units
-│       │   └── 📁 REQ-2026-0923-001
-│       │       └── 📄 Administrative Unit — Delegação para Reset de Senha.md
+│       │   ├──  📁 REQ-2026-0923-001
+│       │   │    └── 📄 Delegação - Reset de Senha e Gerenciamento Grupos.md
+│       │   ├──  📁 REQ-2026-1022-001
+│       │        └── 📄 Delegação - Reset de Senha (Suporte Tecnico).md
 │       ├── 📁 Grupos
 │       │   └── 📁 REQ-2026-1005-001
 │       │       └── 📄 CRIANDO GRUPOS DINAMICOS.md
