@@ -97,14 +97,16 @@
 │   │   │   ├── 📁 REQ-2026-0922-001
 │   │   │   │   └── 📄 Solicitação - Criar Resource Group Subscription.md
 │   │   │   ├── 📁 REQ-2026-1022-001
-│   │   │       └── 📄 Solicitação - Acessos no Resource Group.md
+│   │   │   │   └── 📄 Solicitação - Acessos no Resource Group.md
+│   │   │   └── 📁
 │   │   │
 │   │   ├── 📁 Resource-Groups
 │   │   │   └── 📄 REQ.md
 │   │   ├── 📁 Storage
 │   │   │   └── 📄 REQ.md
 │   │   ├── 📁 Subscription
-│   │       └── 📄 REQ.md
+│   │   │   └── 📄 REQ.md
+│   │   └── 📁
 │   │
 │   └── 📁 Entra-ID
 │       ├── 📁 Administrative Units
@@ -128,7 +130,8 @@
 │           ├── 📁 REQ-2026-1003-001
 │           │   └── 📄 Cadastrados novos colaboradores.md
 │           ├── 📁 REQ-2026-1019-001
-│               └── 📄 Solicitação - Bloqueio - Envio - Invites -Users - EXT.md
+│           │   └── 📄 Solicitação - Bloqueio - Envio - Invites -Users - EXT.md
+│           └── 📁
 │
 ├── 📁 Task - Tarefa
 │   ├── 📁 Azure
@@ -144,6 +147,7 @@
 │
 └── 📁 Troubleshooting
     ├── 📄 Entra-ID - Bulk User:"O envio da operação em massa falhou".md
-    ├──
+    ├── 📄 Task.md
+    └── 📄 Task.md
 
 ```
