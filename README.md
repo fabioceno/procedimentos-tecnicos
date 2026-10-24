@@ -15,6 +15,7 @@ Repositório com procedimentos técnicos ilustrados (com imagens) tambem em form
 - 📁 [Microsoft Word](./Microsoft%20Word/)
 - 📁 [Navegadores](./Navegadores/)
 - 📁 [Pfsense](./Pfsense/)
+- 📁 [Fortigate](./Fortigate/)    
 - 📁 [Redes](./Redes/)
 - 📁 [Tasks](./Tasks/)
 - 📁 [Windows 10](./Windows%2010/)
