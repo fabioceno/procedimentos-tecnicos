@@ -1,2 +1,21 @@
-Teste
-2
+* 📁 Compute
+    * 📁 
+
+* 📁 Governanca
+    * 📁 
+
+* 📁 Networking
+    * 📁 
+
+* 📁 RBAC-IAM
+    * 📁 
+
+* 📁 Resource-Groups
+    * 📁 
+
+* 📁 Storage
+    * 📁 
+
+* 📁 Subscriptions
+    * 📁 
+    

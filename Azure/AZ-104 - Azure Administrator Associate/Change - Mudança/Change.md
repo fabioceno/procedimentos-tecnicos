@@ -1,8 +1,21 @@
-Mudança (Change)
-Alteração planejada no ambiente
-“Alterar regra do Firewall”
 
-│   ├── 📁 Mudancas
-│   │   ├── 📄 CHG-001-Alteracao-RBAC.md
-│   │   ├── 📄 CHG-002-Alteracao-NSG.md
-│   │   └── 📄 CHG-003-Alteracao-VNet.md
+```
+├── 📁 Change - Mudança
+│   ├── 📁 Azure
+│   │   ├── 📁 Compute
+│   │   ├── 📁 Governanca
+│   │   ├── 📁 Networking
+│   │   ├── 📁 RBAC-IAM
+│   │   ├── 📁 Resource-Groups
+│   │   ├── 📁 Storage
+│   │   └── 📁 Subscriptions
+│   └── 📁 Entra ID
+│       ├── 📁 Administrative Units
+│       ├── 📁 Grupos
+│       ├── 📁 Identidade e Acessos
+│       ├── 📁 Licenças
+│       ├── 📁 RBAC-IAM
+│       ├── 📁 Segurança
+│       └── 📁 Usuários
+
+```

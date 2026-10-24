@@ -5,81 +5,34 @@
 ├── 📁 Change - Mudança
 │   ├── 📁 Azure
 │   │   ├── 📁 Compute
-│   │   │   └── 📁 CHG
-│   │   │       └── 📄 CHG.md
 │   │   ├── 📁 Governanca
-│   │   │   └── 📁 CHG
-│   │   │       └── 📄 CHG.md
 │   │   ├── 📁 Networking
-│   │   │   └── 📁 CHG
-│   │   │       └── 📄 CHG.md
 │   │   ├── 📁 RBAC-IAM
-│   │   │   └── 📁 CHG
-│   │   │       └── 📄 CHG.md
 │   │   ├── 📁 Resource-Groups
-│   │   │   └── 📁 CHG
-│   │   │       └── 📄 CHG.md
 │   │   ├── 📁 Storage
-│   │   │   └── 📁 CHG
-│   │   │       └── 📄 CHG.md
 │   │   └── 📁 Subscriptions
-│   │       └── 📁 CHG
-│   │           └── 📄 CHG.md
 │   └── 📁 Entra ID
-│       ├── 📁 CHG
-│       │   └── 📄 CHG.md
+│       ├── 📁 Administrative Units
 │       ├── 📁 Grupos
-│       │   └── 📁 CHG
-│       │       └── 📄 CHG.md
 │       ├── 📁 Identidade e Acessos
-│       │   ├── 📁 CHG-2026-0923-001
-│       │   │   └── 📄 Criando o Company Branding da empresa.md
-│       │   └── 📁 CHG-2026-1022-001
-│       │       └── 📄 Company Branding - Configurando ID visual CENPC.md
 │       ├── 📁 Licenças
-│       │   └── 📁 CHG
-│       │       └── 📄 CHG.md
 │       ├── 📁 RBAC-IAM
-│       │   ├── 📁 CHG-2026-0919-001
-│       │   │   └── 📄 Restrição de Convites para Users Ext no Microsoft Entra ID.md
-│       │   ├── 📁 CHG-2026-1003-001
-│       │   │   └── 📄 Identidade e Acessos Dominios personalizados.md
-│       │   └── 📁 CHG
-│       │       └── 📄 CHG.md
 │       ├── 📁 Segurança
-│       │   └── 📁 CHG
-│       │       └── 📄 CHG.md
 │       └── 📁 Usuários
-│           └── 📁 CHG
-│               └── 📄 CHG.md
-│
+
 ├── 📁 Incident - Incidente
 │   ├── 📁 Azure
-│   │   ├── 📁 INC-2026-1021-001
-│   │       └── 📄 Erro ao criar um virtual Machine.md
-│   │
 │   └── 📁 Entra-ID
-│       └── 📄 INC.md
 │
 ├── 📁 Procedures - Procedimentos
 │   ├── 📁 Azure
-│   │   └── 📄 Resource Providers - Habilitando Recursos.pdf
-│   │
 │   ├── 📁 Contas Trial
-│   │   └── 📄 Falha - Criação da conta.pdf
 │   └── 📁 Entra-ID
 │       ├── 📁 Governança
-│       │   ├── 📄 Policy - Forçar update pelo Pwsh.pdf
-│       │   └── 📄 TAG - Herdando para RG.pdf
 │       ├── 📁 Groups - Grupos
-│       │   └── 📄 Migração - Associação estatica para Associação Dinamica.md
 │       ├── 📁 Powershell
-│       │   └── 📄 MS Graph - Conectando Entra ID usando Pwsh e Graph.md
 │       ├── 📁 RBAC-IAM
-│       │   └── 📄 DNS - UPN alterando sufixo.pdf
 │       └── 📁 Usuários
-│           ├── 📄 Invite - Enviando convite para user externo.pdf
-│           └── 📄 User - Criando usuários no Entra ID.pdf
 │
 ├── 📁 Request - Requisição
 │   ├── 📁 Azure

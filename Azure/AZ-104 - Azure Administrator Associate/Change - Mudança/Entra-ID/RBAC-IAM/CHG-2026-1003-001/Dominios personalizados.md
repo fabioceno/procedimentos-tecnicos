@@ -5,8 +5,13 @@
 * Prioridade: Média
 * Solicitante: IT Infra
 * Equipe responsável: IT Infra Cloud
-* Status: ☐ Em análise | ☑  Em implementação | ☐ Aguardando validação | ☐ Concluído
-
+* Status: 
+```
+☐ Em análise
+☑  Em implementação
+☐ Aguardando validação
+☐ Concluído
+```
 # 1. Descrição.
 
 * A equipe de IT Infra Cloud solicita a alteração do dominio primario do ambiente.
@@ -49,8 +54,13 @@
 
 * O chamado foi encerrado.
 
-* Status: ☐ Em análise | ☐ Em implementação | ☐ Aguardando validação | ☑ Concluído
-
+* Status: 
+```
+☐ Em análise
+☐ Em implementação
+☐ Aguardando validação
+☑ Concluído
+```
 * Analista responsável: Fabio Silva
 
 #
