@@ -2,6 +2,7 @@
 
 ```text
 📁 AZ-104 - Azure Administrator Associate
+│
 ├── 📁 Change - Mudança
 │   ├── 📁 Azure
 │   │   ├── 📁 Compute
