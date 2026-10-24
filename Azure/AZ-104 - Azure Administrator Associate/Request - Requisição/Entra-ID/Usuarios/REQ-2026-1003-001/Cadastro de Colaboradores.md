@@ -5,8 +5,13 @@
 * Prioridade: Média
 * Solicitante: RH
 * Equipe responsável: Suporte Técnico
-* Status: ☑ Em análise | ☐ Em implementação | ☐ Aguardando validação | ☐ Concluído
-
+* Status: 
+```
+☑ Em análise
+☐ Em implementação
+☐ Aguardando validação
+☐ Concluído
+```
 # 1. Descrição.
 
 * A equipe do RH solicitou que fossem cadastrados novos colaboradores para CENPC.
@@ -82,8 +87,13 @@
 
 * O chamado foi encerrado com sucesso.
 
-* Status: ☐ Em análise | ☐ Em implementação | ☐ Aguardando validação | ☑ Concluído
-
+* Status: 
+```
+☐ Em análise
+☐ Em implementação
+☐ Aguardando validação
+☑ Concluído
+```
 * Analista responsável: Fabio Silva
 
 #

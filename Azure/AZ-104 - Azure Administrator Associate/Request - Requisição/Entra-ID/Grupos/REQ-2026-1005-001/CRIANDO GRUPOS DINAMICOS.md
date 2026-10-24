@@ -5,8 +5,13 @@
 * Prioridade: Média
 * Solicitante: TI
 * Equipe responsável: Suporte Técnico
-* Status: ☑ Em análise | ☐ Em implementação | ☐ Aguardando validação | ☐ Concluído
-
+* Status: 
+```
+☑ Em análise
+☐ Em implementação
+☐ Aguardando validação
+☐ Concluído
+```
 # 1. 📌 Descrição.
 
 * Solicito que crie os seguites grupos para as equipes instituição.
@@ -456,8 +461,13 @@ Para esse chamado:
 
 **Próxima ação**: *Nenhuma ação pendente*.
 
-* Status: ☐ Em análise | ☐ Em implementação | ☐ Aguardando validação | ☑ Concluído
-
+* Status:
+```
+☐ Em análise
+☐ Em implementação
+☐ Aguardando validação 
+☑ Concluído
+````
 * Analista responsável: Fabio Silva
 
 #

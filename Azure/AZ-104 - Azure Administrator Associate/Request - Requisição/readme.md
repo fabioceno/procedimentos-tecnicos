@@ -1,5 +1,23 @@
 # 📋 Requisições de Cloud
 
+```
+├── 📁 Request - Requisição
+│   ├── 📁 Azure
+│   │   ├── 📁 Compute
+│   │   ├── 📁 Governança
+│   │   ├── 📁 Networking
+│   │   ├── 📁 RBAC-IAM
+│   │   ├── 📁 Resource-Groups
+│   │   ├── 📁 Storage
+│   │   └── 📁 Subscription
+│   │
+│   └── 📁 Entra-ID
+│       ├── 📁 Administrative Units
+│       ├── 📁 Grupos
+│       ├── 📁 Licenças
+│       ├── 📁 Segurança
+│       └── 📁 Usuários
+```
 ## Sobre este diretório
 
 Este diretório reúne exemplos de **requisições de serviços e atividades de Cloud Computing**, simulando cenários encontrados no ambiente corporativo de Tecnologia da Informação.
