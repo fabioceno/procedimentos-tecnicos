@@ -1,7 +1,7 @@
 # 📁 Estrutura do Repositório — Task
 ```
-├── 📁 Task - Tarefa
-│   ├── 📁 Azure
-│   └── 📁 Entra-ID
+└── 📁 Task - Tarefa
+    ├── 📁 Azure
+    └── 📁 Entra-ID
 ```
 

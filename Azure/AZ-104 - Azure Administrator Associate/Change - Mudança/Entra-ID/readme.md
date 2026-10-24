@@ -1,13 +1,13 @@
 # 📁 Estrutura do Repositório — Change | Entra ID
 ```
-│   └── 📁 Entra ID
-│       ├── 📁 Administrative Units
-│       ├── 📁 Grupos
-│       ├── 📁 Identidade e Acessos
-│       ├── 📁 Licenças
-│       ├── 📁 RBAC-IAM
-│       ├── 📁 Segurança
-│       └── 📁 Usuários
+📁 Entra ID
+├── 📁 Administrative Units
+├── 📁 Grupos
+├── 📁 Identidade e Acessos
+├── 📁 Licenças
+├── 📁 RBAC-IAM
+├── 📁 Segurança
+└── 📁 Usuários
 ```
 * 📁 **Administrative Units**
     * 📁

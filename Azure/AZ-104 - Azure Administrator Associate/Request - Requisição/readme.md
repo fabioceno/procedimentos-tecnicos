@@ -1,22 +1,22 @@
 # 📋 Requisições de Cloud
 
 ```
-├── 📁 Request - Requisição
-│   ├── 📁 Azure
-│   │   ├── 📁 Compute
-│   │   ├── 📁 Governança
-│   │   ├── 📁 Networking
-│   │   ├── 📁 RBAC-IAM
-│   │   ├── 📁 Resource-Groups
-│   │   ├── 📁 Storage
-│   │   └── 📁 Subscription
-│   │
-│   └── 📁 Entra-ID
-│       ├── 📁 Administrative Units
-│       ├── 📁 Grupos
-│       ├── 📁 Licenças
-│       ├── 📁 Segurança
-│       └── 📁 Usuários
+└── 📁 Request - Requisição
+    ├── 📁 Azure
+    │   ├── 📁 Compute
+    │   ├── 📁 Governança
+    │   ├── 📁 Networking
+    │   ├── 📁 RBAC-IAM
+    │   ├── 📁 Resource-Groups
+    │   ├── 📁 Storage
+    │   └── 📁 Subscription
+    │
+    └── 📁 Entra-ID
+        ├── 📁 Administrative Units
+        ├── 📁 Grupos
+        ├── 📁 Licenças
+        ├── 📁 Segurança
+        └── 📁 Usuários
 ```
 ## Sobre este diretório
 
