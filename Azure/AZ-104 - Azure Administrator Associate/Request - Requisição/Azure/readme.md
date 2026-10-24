@@ -1,12 +1,12 @@
 ```
-│   ├── 📁 Azure
-│   │   ├── 📁 Compute
-│   │   ├── 📁 Governança
-│   │   ├── 📁 Networking
-│   │   ├── 📁 RBAC-IAM
-│   │   ├── 📁 Resource-Groups
-│   │   ├── 📁 Storage
-│   │   └── 📁 Subscription
+└── 📁 Azure
+    ├── 📁 Compute
+    ├── 📁 Governança
+    ├── 📁 Networking
+    ├── 📁 RBAC-IAM
+    ├── 📁 Resource-Groups
+    ├── 📁 Storage
+    └── 📁 Subscription
 
 ```
 * 📁 Subscriptions
