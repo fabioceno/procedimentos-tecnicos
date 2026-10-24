@@ -1,3 +1,5 @@
+# 📁 Estrutura do Repositório — Troubleshooting
+
 ```
 └── 📁 Troubleshooting
 

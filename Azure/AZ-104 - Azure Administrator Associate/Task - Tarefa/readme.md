@@ -1,13 +1,7 @@
+# 📁 Estrutura do Repositório — Task
 ```
 ├── 📁 Task - Tarefa
 │   ├── 📁 Azure
 │   └── 📁 Entra-ID
 ```
-* 📁 Azure
-    * 📁
-        - 📄[]()
-#
-* 📁 Entra ID
-    * 📁
-        - 📄[]()
-#
+
