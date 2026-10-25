@@ -138,6 +138,10 @@
 
     <img src="./img/23.png" width="700">
 
+* A senha foi redefinida com sucesso.
+
+    <img src="./img/24.png" width="700">
+
 # 5. 📸 Evidências
 
 ```
