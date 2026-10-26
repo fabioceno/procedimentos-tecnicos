@@ -43,10 +43,65 @@
 
         <img src="./img/04.png" width="700">
 
+* Aos colaboradores do grupo, foi informado o link para o cadastro o modelo de autenticação que será usado.
+
+    * Link do SSPR Setup **https://aka.ms/ssprsetup**.
+```
+    * Para colaboradores que já possuem um metodo cadastrado, o mesmo terá que incluir-lo manualmente.
+
+```
+* No portal será exibido a tela solicitando as credenciais de acesso.
+
+    * <img src="./img/04-1.png" width="700">
+    
+    * Solicitando a senha de acesso.
+
+        <img src="./img/04-2.png" width="700">
+
+    * Após a autenticação, clique na opção *Adicionar método de entrada*
+
+        <img src="./img/04-3.png" width="700">
+
+    * Escolha o segundo metodo para autenticação.
+
+        <img src="./img/04-4.png" width="700">
+
+```
+    * Para colaboradores que não possuem um metodo cadastrado, se autenticando pela primeira vez.
+
+```
+* Inicialmente, será disponibilizada a tela de autenticação padrão.
+
+    <img src="./img/04-5.png" width="700">
+
+* Em seguida, será solicitado para cadastrar metodo de autenticação.
+
+    <img src="./img/04-6.png" width="700">
+
+* Incialmente, será solicitado o cadastro do MS Authenticator.
+
+    <img src="./img/04-7.png" width="700">
+
+* Authenticator cadastrado com sucesso.
+
+    <img src="./img/04-8.png" width="700">
+
+* Em seguida, será soicitado o segundo metodo para autenticação para redefinição da senha.
+*"Tem que ser um e-mail fora da organização".*
+
+   <img src="./img/04-9.png" width="700">
+
+* Será enviado um código para o e-mail cadastrado.
+
+   <img src="./img/04-10.png" width="700">
+
+* O cadastro foi realizado com sucesso.
+
+   <img src="./img/04-11.png" width="700">
+
 * Aos colaboradores, foi informado o link da página para acesso ao SSPR **https://passwordreset.microsoftonline.com**
 
     <img src="./img/05.png" width="700">
-
 
 # 3. 💻 Comandos / Scripts Utilizados
 
