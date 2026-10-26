@@ -31,6 +31,10 @@
         - 📄 [2. Restrição de Convites para Users Ext no Microsoft Entra ID](./RBAC-IAM/CHG-2026-0919-001/2.%20Restrição%20de%20Convites%20para%20Users%20Ext%20no%20Microsoft%20Entra%20ID.md)
     * 📁 CHG-2026-1003-001
         - 📄 [Dominios personalizados](./RBAC-IAM/CHG-2026-1003-001/Dominios%20personalizados.md)
+
+    * 📁 CHG-2026-1025-001
+        - 📄 [SSPR - Configuração e Implantação](./RBAC-IAM/CHG-2026-1025-001/SSPR%20-%20Configuração%20e%20Implantação.md)        
+
 #
 * 📁 **Segurança**
     * 📁
