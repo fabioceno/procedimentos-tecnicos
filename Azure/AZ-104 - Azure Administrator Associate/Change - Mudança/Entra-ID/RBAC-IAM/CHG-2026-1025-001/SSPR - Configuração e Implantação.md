@@ -70,6 +70,16 @@
 
     <img src="./img/08.png" width="700">
 
+* Para usuários que não estão no grupo, a função do SSPR não fica habilitada.
+
+    * Foi realizado o teste com colaborador de outra equipe com o JobTitle diferente.
+
+        <img src="./img/09.png" width="700">
+    
+    * O sistema retorna que não é possivel realizar o procedimento.
+
+        <img src="./img/10.png" width="700">
+
 # 5. 📸 Evidências
 
 ```
@@ -82,7 +92,9 @@
     ├── 📄 05.png
     ├── 📄 06.png
     ├── 📄 07.png
-    └── 📄 08.png
+    ├── 📄 08.png
+    ├── 📄 09.png    
+    └── 📄 10.png
 ```
   
 # 6.🏁 Encerramento
