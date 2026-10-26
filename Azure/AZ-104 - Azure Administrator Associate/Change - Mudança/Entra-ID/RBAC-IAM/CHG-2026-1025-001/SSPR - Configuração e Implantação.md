@@ -1,5 +1,5 @@
 
-# 🎫 CHAMADO DE ACESSO — SITE P@ssw0rd! 
+# 🎫 CHAMADO DE IMPLANTAÇÃO DO SSPR 
 
 * Número do chamado: CHG-2026-1025-001.
 * Categoria: Cloud Computing | Gestão de Identidades.
@@ -167,7 +167,7 @@
     ├── 📄 09.png    
     └── 📄 10.png
 ```
-  
+
 # 6.🏁 Encerramento
 
 **Motivo do encerramento:** Solicitação atendida e validada com sucesso.
