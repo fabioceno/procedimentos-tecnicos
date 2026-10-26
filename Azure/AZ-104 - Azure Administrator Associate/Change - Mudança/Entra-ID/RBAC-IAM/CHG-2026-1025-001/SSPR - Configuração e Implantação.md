@@ -99,10 +99,6 @@
 
    <img src="./img/04-11.png" width="700">
 
-* Aos colaboradores, foi informado o link da página para acesso ao SSPR **https://passwordreset.microsoftonline.com**
-
-    <img src="./img/05.png" width="700">
-
 # 3. 💻 Comandos / Scripts Utilizados
 
 > Registrar somente os comandos relevantes para reprodução do procedimento.
@@ -112,6 +108,10 @@
 ```
 
 # 4. 🔎 Validação dos usuários
+
+* Aos colaboradores, foi informado o link da página para acesso ao SSPR **https://passwordreset.microsoftonline.com**
+
+    <img src="./img/05.png" width="700">
 
 * O colaborador **paulo.souza@cenpc.shop** acessou o link **https://passwordreset.microsoftonline.com/** para realizar o teste de SSPR.
 
@@ -148,16 +148,27 @@
     ├── 📄 02.png
     ├── 📄 03.png
     ├── 📄 04.png
+    │   ├── 📄 04-1.png
+    │   ├── 📄 04-2.png
+    │   ├── 📄 04-3.png
+    │   ├── 📄 04-4.png
+    │   ├── 📄 04-5.png
+    │   ├── 📄 04-6.png
+    │   ├── 📄 04-7.png
+    │   ├── 📄 04-8.png
+    │   ├── 📄 04-9.png
+    │   ├── 📄 04-10.png
+    │   ├── 📄 04-11.png
     ├── 📄 05.png
     ├── 📄 06.png
     ├── 📄 07.png
     ├── 📄 08.png
+    │   └── 📄 08-1.png
     ├── 📄 09.png    
     └── 📄 10.png
 ```
   
 # 6.🏁 Encerramento
-
 
 **Motivo do encerramento:** Solicitação atendida e validada com sucesso.
 
