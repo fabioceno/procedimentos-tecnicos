@@ -58,7 +58,7 @@
 
 # 4. 🔎 Validação dos usuários
 
-* O colaborador **paulo.souza@cenpc.shop** acessou o link *https://passwordreset.microsoftonline.com/* para realizar o teste de SSPR.
+* O colaborador **paulo.souza@cenpc.shop** acessou o link **https://passwordreset.microsoftonline.com/** para realizar o teste de SSPR.
 
     <img src="./img/06.png" width="700">
 
@@ -70,7 +70,11 @@
 
     <img src="./img/08.png" width="700">
 
-* Para usuários que não estão no grupo, a função do SSPR não fica habilitada.
+    * Link para o SSPR Setup **https://aka.ms/ssprsetup** onde ficam as informações referente os metodos de autenticação que foram cadastrados.
+
+        <img src="./img/08-1.png" width="700">
+
+* Para usuários que **não** estão no grupo, a função do SSPR não fica habilitada.
 
     * Foi realizado o teste com colaborador de outra equipe com o JobTitle diferente.
 
