@@ -1,9 +1,10 @@
 # 📁 Estrutura do Repositório — Ticket
 ```
-├── 📁 Ticket - Chamado
+└── 📁 Ticket - Chamado
     ├── 📁 Azure
     └── 📁 Entra-ID
 ```
+#
 * 📁 Azure
     * 📁
         - 📄[]()

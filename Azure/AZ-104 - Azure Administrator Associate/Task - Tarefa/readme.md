@@ -4,4 +4,15 @@
     ├── 📁 Azure
     └── 📁 Entra-ID
 ```
+# 📁 Estrutura do Repositório — Task | Azure
 
+* 📁 Azure
+    * 📁
+        - 📄[]()
+
+# 📁 Estrutura do Repositório — Task | Entra ID
+
+* 📁 Entra ID
+    * 📁
+        - 📄[]()
+#

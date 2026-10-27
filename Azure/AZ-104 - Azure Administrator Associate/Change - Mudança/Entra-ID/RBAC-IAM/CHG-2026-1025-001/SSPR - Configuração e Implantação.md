@@ -52,7 +52,7 @@
 ```
 * No portal será exibido a tela solicitando as credenciais de acesso.
 
-    * <img src="./img/04-1.png" width="700">
+    <img src="./img/04-1.png" width="700">
     
     * Solicitando a senha de acesso.
 
@@ -158,7 +158,7 @@
     │   ├── 📄 04-8.png
     │   ├── 📄 04-9.png
     │   ├── 📄 04-10.png
-    │   ├── 📄 04-11.png
+    │   └── 📄 04-11.png
     ├── 📄 05.png
     ├── 📄 06.png
     ├── 📄 07.png
