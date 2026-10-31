@@ -1,13 +1,16 @@
-# 📁 Estrutura do Repositório — Change | Entra ID
+# 📁 Estrutura do Repositório — Change | Entra ID.
 ```
-📁 Entra ID
-├── 📁 Administrative Units
-├── 📁 Grupos
-├── 📁 Identidade e Acessos
-├── 📁 Licenças
-├── 📁 RBAC-IAM
-├── 📁 Segurança
-└── 📁 Usuários
+📁 AZ-104 - Azure Administrator Associate
+├── 📁 Change - Mudança
+    ├── 📁 Azure
+    └── 📁 Entra ID
+        ├── 📁 Administrative Units
+        ├── 📁 Grupos
+        ├── 📁 Identidade e Acessos
+        ├── 📁 Licenças
+        ├── 📁 RBAC-IAM
+        ├── 📁 Segurança
+        └── 📁 Usuários
 ```
 * 📁 **Administrative Units**
     * 📁

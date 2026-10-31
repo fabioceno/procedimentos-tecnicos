@@ -1,6 +1,7 @@
 # 📁 Estrutura do Repositório — Troubleshooting
 
 ```
+📁 AZ-104 - Azure Administrator Associate
 └── 📁 Troubleshooting
 
 ```
