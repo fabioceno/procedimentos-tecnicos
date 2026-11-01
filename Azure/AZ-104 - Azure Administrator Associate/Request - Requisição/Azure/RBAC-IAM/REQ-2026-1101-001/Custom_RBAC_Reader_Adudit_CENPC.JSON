@@ -1,0 +1,29 @@
+
+{
+    "properties": {
+        "roleName": "CENPC - Audit Cloud Resource Reader (Custom Role)",
+        "description": "Permite visualizar propriedades, configurações e status das máquinas virtuais no Azure.",
+        "assignableScopes": [
+            "/subscriptions/2d686e9e-8efb-44d1-8771-447d001aef97"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Compute/virtualMachines/read",
+                    "Microsoft.Compute/virtualMachines/instanceView/read",
+                    "Microsoft.Compute/virtualMachines/extensions/read",
+                    "Microsoft.Compute/virtualMachines/vmSizes/read",
+                    "Microsoft.Compute/disks/read",
+                    "Microsoft.Network/networkInterfaces/read",
+                    "Microsoft.Network/publicIPAddresses/read",
+                    "Microsoft.Network/virtualNetworks/read",
+                    "Microsoft.Network/networkSecurityGroups/read",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

@@ -35,8 +35,8 @@
     
     * 📁 REQ-2026-1029-001
         - 📄[LIBERAÇÃO NO RESOURCE GROUP HML](./RBAC-IAM/REQ-2026-1029-001/Solicitação%20-%20Liberação%20de%20Acessos%20DEV%20.md)
-    * 📁
-        - 📄[]()
+    * 📁 REQ-2026-1101-001
+        - 📄[Cloud Resource Reader - Criação de função RBAC](./RBAC-IAM/REQ-2026-1101-001/Criação%20de%20função%20RBAC.md)
 #
 * 📁 Networking
     * 📁
