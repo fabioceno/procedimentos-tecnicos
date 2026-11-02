@@ -2,8 +2,9 @@
 📁 AZ-104 - Azure Administrator Associate
 └── 📁 Request - Requisição
     ├── 📁 Azure
-    └── 📁 Entra-ID.
+    └── 📁 Entra-ID
         ├── 📁 Administrative Units
+        ├── 📁 Dominios
         ├── 📁 Grupos
         ├── 📁 Licenças
         ├── 📁 Segurança
@@ -14,6 +15,13 @@
         - 📄 [Delegação - Reset de Senha e Gerenciamento Grupos](./Administrative%20Units/REQ-2026-0923-001/Delegação%20-%20Reset%20de%20Senha%20e%20Gerenciamento%20Grupos.md)
     * 📁 REQ-2026-0923-001
         - 📄 [Delegação - Reset de Senha (Suporte Tecnico)](./Administrative%20Units/REQ-2026-1022-001/Delegação%20-%20Reset%20de%20Senha%20(Suporte%20Tecnico).md)
+#
+* 📁 Domínios
+    * 📁 Custom Domain Names
+        * 📁 REQ-2026-1102-001
+            - [Adicionar novo domínio](./Dominios/Custom%20Domain%20Names/REQ-2026-1102-001/Adicionar%20novo%20domínio.md)
+    * 📁 DNS
+    * 📁 UPN
 #
 * 📁 Grupos
     * 📁 REQ-2026-1005-001

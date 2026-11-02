@@ -47,6 +47,7 @@
 │   │
 │   └── 📁 Entra-ID
 │       ├── 📁 Administrative Units
+│       ├── 📁 Dominios
 │       ├── 📁 Grupos
 │       ├── 📁 Licenças
 │       ├── 📁 Segurança
