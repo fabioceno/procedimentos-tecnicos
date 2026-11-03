@@ -5,7 +5,7 @@
 * Serviço: Microsoft Entra ID
 * Tipo de solicitação: Cadastro
 * Prioridade: Média
-* Solicitante: Financeiro
+* Solicitante: IT Infraestructure
 * Equipe responsável: Suporte Técnico
 * Status: 
 
