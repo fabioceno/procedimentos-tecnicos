@@ -280,9 +280,6 @@ Para esse chamado:
         
     * **Regra Dinâmica** : Todos colaboradores cujo o cargo seja igual "Gerente".
 
-
-
-
 # 3. 📸 Evidências.
 
 * **Equipe MKT**.
