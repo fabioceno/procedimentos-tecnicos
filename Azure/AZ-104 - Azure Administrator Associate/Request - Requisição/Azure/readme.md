@@ -47,8 +47,8 @@
         - 📄[]()
 #
 * 📁 Storage
-    * 📁
-        - 📄[]()
+    * 📁 REQ-STG-2026-0711-001
+        - 📄[Storage Account - Criar função para gerenciamento](./Storage/REQ-STG-2026-0711-001/Storage%20Account%20-%20Criar%20função%20para%20gerenciamento.md)
 #
 * 📁 Subscription
     * 📁
