@@ -22,9 +22,12 @@
 #
 * 📁 **Identidade e Acessos**
     * 📁 CHG-2026-0923-001
-        - 📄 [IDENTIDADE VISUAL - COMPANY BRANDING](./Identidade%20e%20Acessos/CHG-2026-0923-001/IDENTIDADE%20VISUAL%20-%20COMPANY%20BRANDING.md)
+        - 📄 [Company Branding - Identidade Visual](./Identidade%20e%20Acessos/CHG-2026-0923-001/IDENTIDADE%20VISUAL%20-%20COMPANY%20BRANDING.md)
     * 📁 CHG-2026-1022-001
         - 📄 [Company Branding - Configurando ID visual CENPC](./Identidade%20e%20Acessos/CHG-2026-1022-001/Company%20Branding%20-%20Configurando%20ID%20visual%20CENPC.md)
+    * 📁 CHG-2026-1108-001
+        - 📄[Company Branding - Atualizando ID visual CENPC](./Identidade%20e%20Acessos/CHG-2026-1108-001/Company%20Branding%20-%20Update%20ID%20Visual%20CENPC.md)
+
 #
 * 📁 **Licenças**
     * 📁
