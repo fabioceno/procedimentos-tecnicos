@@ -16,8 +16,9 @@
         - 📄[]()
 #
 * 📁 Governança
-    * 📁
-        - 📄[]()
+    * 📁 REQ-2026-1109-001 
+        - 📄[POLICY-TAG - Criar TAG padrão para subscription](./Governanca/REQ-2026-1109-001/POLICY-TAG%20-%20Criar%20TAG%20padrão%20para%20subscription.md)
+
 #
 * 📁 RBAC-IAM
     * 📁 REQ-2026-0911-001
