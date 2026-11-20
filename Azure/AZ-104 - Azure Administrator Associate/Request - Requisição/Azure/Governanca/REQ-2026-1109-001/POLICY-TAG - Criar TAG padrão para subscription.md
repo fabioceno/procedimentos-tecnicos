@@ -1,4 +1,4 @@
-# 🎫 CHAMADO -  
+# 🎫 CHAMADO - Inclusão de TAGS da Subscription "através de herança" para Resources Groups e Recursos.  
 
 * Número do chamado: REQ-2026-1109-001
 * Categoria: Cloud Computing | Azure | Governança de Recursos

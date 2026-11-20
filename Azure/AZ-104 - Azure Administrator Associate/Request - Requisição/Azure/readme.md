@@ -19,6 +19,8 @@
     * 📁 REQ-2026-1109-001 
         - 📄[POLICY-TAG - Criar TAG padrão para subscription](./Governanca/REQ-2026-1109-001/POLICY-TAG%20-%20Criar%20TAG%20padrão%20para%20subscription.md)
 
+    * 📁 REQ-2026-1118-001 
+        - 📄[POLICY - RESTRIÇÃO DE REGIÕES PARA VMS](./Governanca/REQ-2026-1118-001/POLICY%20-%20RESTRIÇÃO%20DE%20REGIÕES%20PARA%20VMS.md)
 #
 * 📁 RBAC-IAM
     * 📁 REQ-2026-0911-001
