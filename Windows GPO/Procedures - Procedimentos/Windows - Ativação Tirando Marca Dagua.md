@@ -6,13 +6,13 @@
 
     <img src="./img/ativacao windows/01.png" width="700">
 
-# 📝 Procedimentos | 📸 Evidências | 💻 Comandos | 🛠️ Scripts .
+# 📝 Procedimentos | 📸 Evidências | 💻 Comandos | 🛠️ Scripts
 
 1. Na ferramenta *Group Policy Management* foi criada uma nova GPO.
 
     <img src="./img/ativacao windows/02.png" width="700">
 
-2. Em seguida foi editada a politica **Computer Configuration > Preferences > Windows Settings > Registry > New > Regisrty Item**.
+2. Em seguida foi editada a politica **Computer Configuration > Preferences > Windows Settings   > Registry > New > Regisrty Item**.
 
     <img src="./img/ativacao windows/03.png" width="700">
 
