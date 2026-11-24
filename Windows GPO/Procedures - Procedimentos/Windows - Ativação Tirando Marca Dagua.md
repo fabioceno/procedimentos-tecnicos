@@ -51,7 +51,5 @@
     <img src="./img/ativacao windows/08.png" width="700">
 
 
-# 🏁 Encerramento
-
 
 #
